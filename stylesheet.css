@@ -1,0 +1,46 @@
+#chart {
+  margin-left: 0px;
+  height: 506px;
+}
+
+text {
+  font: 10px sans-serif;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.label {
+  fill: #777;
+}
+
+
+.year.label {
+  font: 400 120px"Helvetica Neue";
+  fill: #ddd;
+}
+.title.label {
+font: 20 20px"Helvetica Neue";
+  fill: #777;
+}
+
+
+.d3-tip {
+  line-height: 1;
+  font-family: Lucida Grande, Lucida Sans Unicode, Arial, Helvetica;
+  font-size: 12px;
+  padding: 12px;
+  background: #EFEFEF;
+  color: #253756;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+}
